@@ -1,5 +1,6 @@
   
 -- Utilizadores
+DROP TABLE IF EXISTS users;
 CREATE TABLE IF NOT EXISTS users (
     id              int NOT NULL AUTO_INCREMENT PRIMARY KEY,
     first_name      varchar(20) NOT NULL,
